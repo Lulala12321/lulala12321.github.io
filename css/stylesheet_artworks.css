@@ -1,0 +1,29 @@
+.artworks{
+    display: flex;
+	flex-direction: column;
+}
+.artworks > *{
+	width: 8rem;
+	margin: 0.2em;
+}
+#content{
+	display: flex;
+}
+.selected{
+	border-bottom: solid red 0.1em;
+}
+main{
+	padding: 0 1.5em;
+}
+.images{
+	width: 40%;
+	float: right;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	
+}
+@media screen and (min-width: 60rem) {
+	.artworks > *{
+		width: 16rem;
+	}
+}
