@@ -1,0 +1,26 @@
+.artworks{
+    display: flex;
+	flex-direction: column;
+}
+.artworks > *{
+	width: 8rem;
+	margin: 0.2em;
+}
+#content{
+	display: flex;
+}
+
+main{
+	padding: 0 1.5em;
+}
+#MarcChagall{
+	display: flex;
+	width: 8rem;
+	margin: 0.2em auto;
+	
+}
+@media screen and (min-width: 60rem) {
+	.artworks > *{
+		width: 16rem;
+	}
+}
