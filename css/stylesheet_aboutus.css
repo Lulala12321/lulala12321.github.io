@@ -1,0 +1,9 @@
+
+.gallery-pictures{
+	display: flex;
+	flex-direction: row;
+}
+.gallery-pictures > *{
+	width: 24%;
+	margin: 0.2em;
+}
