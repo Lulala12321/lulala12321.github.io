@@ -1,0 +1,24 @@
+.gallery-pictures{
+	display: flex;
+	flex-direction: row;
+}
+.gallery-pictures > *{
+	width: 24%;
+	margin: 0.2em;
+}
+#content{
+	display: flex;
+}
+#list{
+	width: 25%;
+	margin-right: 2rem;
+}
+.news{
+	border: solid #e0e0e0 0.1em;
+	margin: 3rem;
+	padding: 2rem;
+	background-color: #f9f9c0;
+}
+#blog{
+	margin-bottom: 5rem;
+}
