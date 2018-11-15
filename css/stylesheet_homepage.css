@@ -1,0 +1,41 @@
+#welcome { 
+  font-weight:100; 
+  padding: 2rem;
+  width: 80%;
+  margin:2rem auto;
+  font-size: 1.2rem;
+}
+
+#content{
+	display: flex;
+}
+#gallery{
+	width: 30%;
+	padding: 2rem;
+}
+main{
+	width: 70%;
+	padding: 2rem;
+}
+video{
+	width: 100%;
+}
+#top{
+	display: flex;
+	justify-content: flex-end;
+}
+
+@media screen and (max-width: 60rem){
+	#content{
+		flex-direction: column;
+
+	}
+	#content > *{
+		width: 80%;
+				padding: 0;
+		margin: 0;
+	}
+	#welcome{
+		margin: 0;
+	}
+}
